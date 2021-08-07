@@ -24,7 +24,7 @@ variable "cidr_block" {
 variable "private_subnets" {
     description = "private_subnets"
     type        = string
-    default     = "172.20.20.0/24"
+    default     = "subnet-09dafe62de7c1f668"
 }
 
 variable "ami_id" {
